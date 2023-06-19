@@ -1,11 +1,11 @@
-About r-clustercons
-===================
+About r-clustercons-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clustercons-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/biomedicalinformaticsgroup/clusterCons
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clustercons-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions for calculation of robustness measures for clusters and cluster membership based on generating consensus matrices from bootstrapped clustering experiments in which a random proportion of rows of the data set are used in each individual clustering. This allows the user to prioritise clusters and the members of clusters based on their consistency in this regime. The functions allow the user to select several algorithms to use in the re-sampling scheme and with any of the parameters that the algorithm would normally take. See Simpson, T. I., Armstrong, J. D. & Jarman, A. P. (2010) <doi:10.1186/1471-2105-11-590> and Monti, S., Tamayo, P., Mesirov, J. & Golub, T. (2003) <doi:10.1023/a:1023949509487>.
 
