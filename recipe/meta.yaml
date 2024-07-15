@@ -1,6 +1,5 @@
 {% set version = '1.2' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-clustercons
@@ -13,8 +12,7 @@ source:
   sha256: d840cef46da3037ac7b61d604b0989d681cfe392248abeaa88de957531333ecc
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
